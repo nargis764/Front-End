@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  background-color: rgb(77, 76, 92);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  padding: 10px 0px;
+}
+.nav-title {
+  margin-left: 20px;
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+li {
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+}
+li .btn {
+  background-color: rgb(88, 204, 237);
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 4px 4px rgb(0, 0, 0);
+}
