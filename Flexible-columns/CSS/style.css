@@ -1,0 +1,25 @@
+.row {
+    display:flex;
+    color:white;    
+}
+.col {     
+    height:20px;   
+    background-color:rgb(95, 173, 160);    
+    padding:10px;   
+    margin:6px;
+    flex: 1 1 100px; 
+}
+.col-2 {
+    height:20px;   
+    background-color:rgb(95, 173, 160);      
+    padding:10px; 
+    margin:6px;
+    flex: 2 2 100px;
+}
+.col-3 {      
+    height:20px;   
+    background-color:rgb(95, 173, 160);    
+    padding:10px;
+    margin:6px;
+    flex: 3 3 100px;
+}
